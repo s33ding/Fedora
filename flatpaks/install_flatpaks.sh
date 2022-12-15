@@ -1,4 +1,4 @@
 file=pkgs.txt
 for packages in $(cat $file); do
-   flatpak install flathub $packages -y;
+   flatpak install flathub -y $packages;
 done
