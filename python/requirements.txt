@@ -1,0 +1,16 @@
+pandas
+gdown
+matplotlib
+xlrd
+gtts
+playsound
+tabulate
+openpyxl
+xlwt
+lxml
+django
+sqlalchemy
+utils
+scipy
+plotly
+mysql-connector-python

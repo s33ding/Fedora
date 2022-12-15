@@ -18,3 +18,4 @@ docker-compose
 sqlite
 mysql
 python-pip
+ufw

@@ -1,1 +1,1 @@
-sudo dnf install java-11-openjdk
+sudo dnf install -y java-11-openjdk
