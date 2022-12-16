@@ -8,5 +8,4 @@ sudo bash brave_install.sh
 sudo bash AWS-SAM.sh
 sudo bash install flatpaks_install.sh
 sudo bash brew_install.sh
-bash pip_install.sh
 sudo bash snap_install.sh
