@@ -5,11 +5,9 @@ tilix
 cmatrix
 goodvibes
 gnome-tweaks
-gnome-shell-pomodoro
 gnome-clocks
 nmap
 speedtest-cli
-gnome-shell-extensions
 gscan2pdf
 xprop.x86_64
 keepassxc
@@ -19,3 +17,5 @@ sqlite
 mysql
 python-pip
 ufw
+awscli
+ipython3	
