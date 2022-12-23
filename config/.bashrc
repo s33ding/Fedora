@@ -1,8 +1,9 @@
 
+alias ggg="git add .;git commit -m 'saving'; git push"
 alias db-loc="docker start ts; docker exec -it ts mysql -p "
 alias w3="firefox https://www.w3schools.com/"
 alias w3sql="firefox https://www.w3schools.com/SQL"
-
+alias cl="csvlook"
 alias dk="docker"
 alias gm="git add .;git commit -m 'saving'; git push"
 alias ec29="cd /run/media/roberto/black-box/.syek/connections; bash con_ec2.sh"
@@ -10,7 +11,16 @@ alias see="docker ps -a"
 alias dup="docker-compose up -d"
 alias dst="docker start"
 alias db-prod="cd /run/media/roberto/black-box/.syek/connections; bash prod_mysql.sh"
+alias bs="bash"
+
+
+#                          MyScripts
+alias sdf="ipython3 -i ~/MyScripts/see_df.py"
+alias eqry="ipython3 -i ~/MyScripts/ex_query.py"
+alias qry="ipython3 -i ~/MyScripts/input_query.py"
+
 #                          basic_commands
+
 
 alias mk="mkdir"
 alias c="cd"
@@ -27,8 +37,8 @@ alias sb="sudo bash"
 alias sss="shutdown -f now"
 alias tsdocker="sudo docker exec -it tisaude mysql -p"
 alias sch9="code  /home/roberto/adm/code/tskit/read_sch.ipynb"
-alias sc="nmap -sP 192.168.1.0/24 "
-alias sco="nmap -sN 192.168.1.0/24 -O"
+alias sc="sudo nmap -sP 192.168.1.0/24 "
+alias sco="sudo nmap -sN 127.0.0.0/24 -O"
 
 #-------------------------files/navegation------------------
 
@@ -53,7 +63,9 @@ alias dw="cd /home/roberto/Downloads"
 alias nb="cd /home/roberto/notebook"
 alias bk="cd /home/roberto/Documents/books"
 alias gth="cd /home/roberto/github"
-alias bit9="cd /home/roberto/bitbucket"
+alias bit9="cd /home/roberto/Bitbucket"
+alias b9="cd /home/roberto/Bitbucket"
+alias ms9="cd ~/MyScripts"
 
 #                         cd_folders_media 
 alias md="cd /run/media/roberto/"
@@ -67,6 +79,9 @@ alias themes="cd /usr/share/themes/"
 #                         bash_profile
 alias sr="source ~/.bashrc" 
 alias e="vim ~/.bashrc"
+
+#                         cat_files
+alias memac="cat ~/Fedora/help/emacs_shortcuts"
 
 #-------------------------wifi ------------------------------ 
 
@@ -85,10 +100,11 @@ alias gv="goodvibes"
 alias python="python3"
 alias p="python3"
 alias i="ipython3"
+alias ii="ipython3 -i"
 alias n="nano"
 alias g="gedit"
 alias v="vim"
-alias tor=" /home/roberto/tor/start-tor-browser.desktop"
+alias tor="cd /home/roberto/tor-browser"
 alias YDL="youtube-dl"
 alias jp="jupyter-notebook"
 alias kp="keepassxc"
@@ -115,17 +131,22 @@ alias ad9="cd /home/roberto/adm/"
 alias dba9="cd /home/roberto/adm/dba"
 alias sc9="cd /home/roberto/adm/dba/schema_ts/tables"
 alias ts-app="cd /home/roberto/adm/dba/schema_ts/tables/tisaude_app"
+alias ts-emp="cd /home/roberto/adm/dba/schema_ts/tables/tisaude_empresa"
 alias sys9="cd /home/roberto/adm/system"
 alias fed9="cd /home/roberto/adm/system/fedora/"
 alias flat9="cd /home/roberto/adm/system/flatpaks/"
-alias aws9="cd /home/roberto/adm/aws"
-alias bitbucket="cd /home/roberto/bitbucket"
-alias bit9="cd /home/roberto/bitbucket"
-alias git9="cd /home/roberto/github"
+alias aws9="cd /home/roberto/.aws"
+alias bitbucket="cd /home/roberto/Bitbucket"
+alias git9="cd /home/roberto/Github"
+alias g9="cd /home/roberto/Github"
+alias fed9="cd /home/roberto/Fedora"
+alias f9="cd /home/roberto/Fedora"
+alias eda9="cd /home/roberto/Bitbucket/eda"
 alias blackbox="cd /run/media/roberto/black-box/"
 alias bb9="cd /run/media/roberto/black-box/"
 alias key9="cd /run/media/roberto/black-box/.syek/"
 alias con9="cd /run/media/roberto/black-box/.syek/connections"
+alias c9="cd /run/media/roberto/black-box/.syek/connections"
 alias k9="cd /run/media/roberto/black-box/.syek/"
 alias awsk="csvlook /run/media/roberto/black-box/.syek/aws/admin_accessKeys.csv"
 alias mfa9="cat /run/media/roberto/black-box/.syek/VPN/roberto.diniz.mfa"
@@ -248,6 +269,8 @@ alias epubtopdf="firefox https://www.zamzar.com/convert/epub-to-pdf/"
 alias drawio="firefox https://draw.io/"
 alias gateway="firefox 192.168.1.1"
 
+#--------------------------------------------------------------
+export EDITOR=vim
 #--------------------------------------------------------------
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
