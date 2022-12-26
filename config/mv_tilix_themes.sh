@@ -1,0 +1,1 @@
+cp tilix -r ~/.config/
