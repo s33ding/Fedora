@@ -1,4 +1,8 @@
+#                          VARIABLES
+export RedShift_CRED="/run/media/roberto/black-box/.syek/connections/RedShift.json"
+export MySQL_CRED="/run/media/roberto/black-box/.syek/connections/roberto-prod.json"
 
+alias t9="cd ~/teste"
 alias ggg="git add .;git commit -m 'saving'; git push"
 alias db-loc="docker start ts; docker exec -it ts mysql -p "
 alias w3="firefox https://www.w3schools.com/"
@@ -11,16 +15,10 @@ alias see="docker ps -a"
 alias dup="docker-compose up -d"
 alias dst="docker start"
 alias db-prod="cd /run/media/roberto/black-box/.syek/connections; bash prod_mysql.sh"
+alias db-pass="cd /run/media/roberto/black-box/.syek/connections; dJ roberto-prod.json; cat roberto-prod.json |  grep pass; eJ roberto-prod.json"
 alias bs="bash"
 
-
-#                          MyScripts
-alias sdf="ipython3 -i ~/MyScripts/see_df.py"
-alias eqry="ipython3 -i ~/MyScripts/ex_query.py"
-alias qry="ipython3 -i ~/MyScripts/input_query.py"
-
 #                          basic_commands
-
 
 alias mk="mkdir"
 alias c="cd"
@@ -28,8 +26,9 @@ alias o="xdg-open"
 alias 0="clear"
 alias up="sudo yum update"
 alias si="sudo yum install"
-alias sd="sudo su "
+alias sd="sudo"
 alias rr="rm -r"
+alias rf="rm -r -f"
 alias asc2="hexdump -C" 
 alias sdd="sudo docker"
 alias sdb="sudo bash"
@@ -132,37 +131,50 @@ alias dba9="cd /home/roberto/adm/dba"
 alias sc9="cd /home/roberto/adm/dba/schema_ts/tables"
 alias ts-app="cd /home/roberto/adm/dba/schema_ts/tables/tisaude_app"
 alias ts-emp="cd /home/roberto/adm/dba/schema_ts/tables/tisaude_empresa"
-alias sys9="cd /home/roberto/adm/system"
-alias fed9="cd /home/roberto/adm/system/fedora/"
-alias flat9="cd /home/roberto/adm/system/flatpaks/"
 alias aws9="cd /home/roberto/.aws"
 alias bitbucket="cd /home/roberto/Bitbucket"
 alias git9="cd /home/roberto/Github"
 alias g9="cd /home/roberto/Github"
+alias I9="cd /home/roberto/IPython"
 alias fed9="cd /home/roberto/Fedora"
 alias f9="cd /home/roberto/Fedora"
 alias eda9="cd /home/roberto/Bitbucket/eda"
 alias blackbox="cd /run/media/roberto/black-box/"
-alias bb9="cd /run/media/roberto/black-box/"
+alias vb9="cd /run/media/roberto/black-box/"
 alias key9="cd /run/media/roberto/black-box/.syek/"
 alias con9="cd /run/media/roberto/black-box/.syek/connections"
 alias c9="cd /run/media/roberto/black-box/.syek/connections"
-alias k9="cd /run/media/roberto/black-box/.syek/"
+alias K9="cd /run/media/roberto/syek/"
 alias awsk="csvlook /run/media/roberto/black-box/.syek/aws/admin_accessKeys.csv"
 alias mfa9="cat /run/media/roberto/black-box/.syek/VPN/roberto.diniz.mfa"
 alias code9="cd /home/roberto/adm/code"
 
-#			NOTEBOOK
+#			IPython
+alias ii="ipython3 -i"
+alias lk="python3 ~/IPython/chmod.py" 
+alias pdcsv="ipython3 -i ~/IPython/Pandas_read_CSV.py"
+alias pscsv="ipython3 -i ~/IPython/PySpark_read_CSV.py"
+alias psprq="ipython3 -i ~/IPython/PySpark_read_parquet.py"
+alias eqry="ipython3 -i ~/IPython/MySQL_ex_query.py"
+alias qry="ipython3 -i ~/IPython/MySQL_input_query.py"
+alias rsq="ipython3 -i ~/IPython/RedShift_input_query.py"
+alias eJson="ipython3 ~/IPython/Encrypt_JSON.py"
+alias eJ="ipython3 ~/IPython/Encrypt_JSON.py"
+alias dJ="ipython3 ~/IPython/Decrypt_JSON.py"
+alias psq="ipython3 -i ~/IPython/PySpark_MySQL.py"
+alias bsrBck="ipython3  ~/IPython/bck_bashrc.py"
 
-alias ydl="python /home/roberto/adm/code/ydl.py"
-alias ch="python /home/roberto/adm/code/chmod.py"
-alias lk="python /home/roberto/adm/code/chmod.py"
-alias bck="python /home/roberto/adm/code/bck.py"
-alias speak="python /home/roberto/adm/code/speak.py"
-alias S="python /home/roberto/adm/code/speak.py"
-alias rcsv="python /home/roberto/adm/code/panda_read_csv.py"
-alias runc="python /home/roberto/adm/code/run_c.py"
-alias associados="python /home/roberto/adm/code/datai/associados.py"
+#			MyScripts
+
+alias gClone="bash ~/MyScripts/gitClone.sh"
+
+#			NOTEBOOK
+alias ydl="python /home/roberto/IPython/ydl.py"
+alias ch="python /home/roberto/IPython/chmod.py"
+alias bck="python /home/roberto/IPython/bck.py"
+alias speak="python /home/roberto/IPython/speak.py"
+alias S="python /home/roberto/IPython/speak.py"
+alias runc="python /home/roberto/IPython/run_c.py"
 
 #-------------------------FIREFOX------------------------------
 
@@ -208,7 +220,6 @@ alias grammar="firefox https://test-english.com/"
 alias dictionary="firefox https://dictionary.cambridge.org/dictionary/english/dictionary"
 alias quizlet="firefox https://quizlet.com/latest" 
 alias dct="firefox https://dictionary.cambridge.org/dictionary/english/dictionary"
-alias tst="firefox https://tstprep.com/toefl-articles/"
 
 #			  f_midia
 alias ceub="firefox https://www.ea.uniceub.br" 
