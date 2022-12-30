@@ -4,15 +4,11 @@ vim
 tilix
 cmatrix
 goodvibes
-gnome-tweaks
 gnome-clocks
 nmap
 speedtest-cli
-gscan2pdf
 xprop.x86_64
 keepassxc
-docker
-docker-compose
 sqlite
 mysql
 python-pip

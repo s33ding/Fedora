@@ -1,4 +1,2 @@
 mysql-workbench-community
-mysql --beta
-another-redis-desktop-manager
 dbeaver-ce

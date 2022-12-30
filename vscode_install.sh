@@ -5,4 +5,4 @@ dnf check-update
 sudo dnf install code
 
 yum check-update
-sudo yum install code
+sudo yum install -y code

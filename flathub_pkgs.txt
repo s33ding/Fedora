@@ -3,15 +3,10 @@ io.gitlab.librewolf-community
 com.rafaelmardojai.Blanket
 io.freetubeapp.FreeTube
 org.kde.krita
-org.inkscape.Inkscape
 org.videolan.VLC
-org.gnome.Extensions
 com.github.johnfactotum.Foliate 
-com.github.phase1geo.minder
 md.obsidian.Obsidian
 org.telegram.desktop
 com.spotify.Client
-org.eclipse.Java
 com.github.rafostar.Clapper
 org.kde.kdenlive
-com.github.tchx84.Flatseal
