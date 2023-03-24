@@ -10,7 +10,7 @@ speedtest-cli
 xprop.x86_64
 keepassxc
 sqlite
-mysql
+sudo dnf install community-mysql-server
 python-pip
 ufw
 awscli
