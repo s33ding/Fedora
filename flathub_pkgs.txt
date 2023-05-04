@@ -1,12 +1,7 @@
 com.obsproject.Studio
-io.gitlab.librewolf-community
 com.rafaelmardojai.Blanket
 io.freetubeapp.FreeTube
 org.kde.krita
 org.videolan.VLC
 com.github.johnfactotum.Foliate 
-md.obsidian.Obsidian
-org.telegram.desktop
-com.spotify.Client
-com.github.rafostar.Clapper
 org.kde.kdenlive

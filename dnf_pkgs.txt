@@ -1,18 +1,11 @@
-snapd
 htop
 vim 
 tilix
 cmatrix
 goodvibes
-gnome-clocks
-nmap
-speedtest-cli
-xprop.x86_64
-keepassxc
 sqlite
-sudo dnf install community-mysql-server
+community-mysql-server
 python-pip
 ufw
 awscli
-ipython3	
-nodejs
+ipython3
