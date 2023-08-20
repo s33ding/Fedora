@@ -16,6 +16,22 @@ sudo dnf config-manager \
 
 sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
+
+echo 'configuring docker'
+echo 'cmd: sudo groupadd docker'
+sudo groupadd docker
+
+echo 'cmd: sudo usermod -aG docker $USER'
+sudo usermod -aG docker $USER
+
+echo 'cmd: newgrp docker'
+newgrp docker
+
+echo 'cmd: sudo systemctl start docker'
 sudo systemctl start docker
 
 sudo docker run hello-world
+
+echo 'installing docker-compose'
+echo 'cmd: sudo dnf install docker-compose'
+sudo dnf install docker-compose
