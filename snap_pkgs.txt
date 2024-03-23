@@ -1,2 +1,1 @@
 mysql-workbench-community
-dbeaver-ce
