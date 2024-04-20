@@ -9,3 +9,4 @@ python-pip
 ufw
 awscli
 ipython3
+calibre
