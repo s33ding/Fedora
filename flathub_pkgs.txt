@@ -5,3 +5,4 @@ org.kde.krita
 org.videolan.VLC
 com.github.johnfactotum.Foliate 
 com.mongodb.Compass
+md.obsidian.Obsidian
