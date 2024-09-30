@@ -6,3 +6,6 @@ org.videolan.VLC
 com.github.johnfactotum.Foliate 
 com.mongodb.Compass
 md.obsidian.Obsidian
+org.remmina.Remmina
+org.gnome.SoundRecorder
+com.calibre_ebook.calibre
