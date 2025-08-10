@@ -9,3 +9,4 @@ md.obsidian.Obsidian
 org.remmina.Remmina
 org.gnome.SoundRecorder
 com.calibre_ebook.calibre
+io.github.david_swift.Flashcards
