@@ -1,1 +1,1 @@
-sudo -H pip install --upgrade youtube-dl
+sudo -H pip install --upgrade yt-dlp
