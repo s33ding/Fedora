@@ -1,1 +1,1 @@
-brew install youtube-dl
+sudo -H pip install --upgrade youtube-dl
